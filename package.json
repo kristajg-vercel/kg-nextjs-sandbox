@@ -9,15 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@statsig/react-bindings": "^0.0.1-beta.40",
+    "@vercel/flags": "^2.3.0",
+    "@vercel/toolbar": "^0.1.14",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "statsig-node": "^5.20.0",
+    "statsig-react": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@vercel/toolbar": "^0.1.14",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
