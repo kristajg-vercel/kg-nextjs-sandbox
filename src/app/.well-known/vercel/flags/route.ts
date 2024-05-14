@@ -7,8 +7,8 @@ export async function GET(request: NextRequest) {
   if (!access) return NextResponse.json(null, { status: 401 });
  
   const statsigData = await getStatsigData({
-    consoleApiKey: process.env.STATSIG_CONSOLE_API_KEY,
-    projectId: process.env.STATSIG_PROJECT_ID,
+    consoleApiKey: process.env.STATSIG_CONSOLE_API_KEY || '',
+    projectId: process.env.STATSIG_PROJECT_ID || '',
   });
 
   return NextResponse.json<ApiData>(statsigData);
