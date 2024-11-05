@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	worktree = /Users/kristagoralczyk/Projects/kg-nextjs-sandbox
+	ignorecase = true
+	precomposeunicode = true
